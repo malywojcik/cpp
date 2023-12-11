@@ -1,0 +1,3 @@
+C:/Users/kari/Documents/GitHub/cpp/kolokwium_1/cmake-build-debug/CMakeFiles/kolokwium_1.dir
+C:/Users/kari/Documents/GitHub/cpp/kolokwium_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kari/Documents/GitHub/cpp/kolokwium_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
