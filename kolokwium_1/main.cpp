@@ -4,12 +4,12 @@
 
 using namespace std;
 
-int serie(const int x[], int y[], int z[], const int n)
+int serie(int x[], int y[], int z[], const int n)
 {
     int ilosc_serii = 0;
     bool ktora = false; // false do tab2, true do tab3
     int dl_tab2 = -1, dl_tab3 = -1, last_tab2 = 0, last_tab3 = 0;
-    for (int i = 0; i < n-1; i++)
+    for (int i = 0; i < n; i++)
     {
         if (x[i] > x[i + 1])
         {
@@ -47,9 +47,9 @@ int main()
     int tab1[n], tab2[n], tab3[n];
     for (int i = 0; i < n; i++)
     {
-        tab1[i] = rand() % 47 + 23;
-        tab2[i] = 0;
-        tab3[i] = 0;
+       tab1[i] = rand() % 47 + 23; // losuje liczby z zakresu 23 - 69
+       tab2[i] = 0;
+       tab3[i] = 0;
     }
     cout << endl;
     for (int i : tab1)
@@ -71,6 +71,6 @@ int main()
             break;
         cout << i << "  ";
     }
-cout << endl;
+    cout << endl;
     return 0;
 }
